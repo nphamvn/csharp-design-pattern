@@ -7,8 +7,9 @@ public class ProductStockReportDirector
     }
     public void BuildStockReport()
     {
-        _productStockReportBuilder.BuildHeader();
-        _productStockReportBuilder.BuildBody();
-        _productStockReportBuilder.BuildFooter();
+        _productStockReportBuilder
+            .BuildHeader()
+            .BuildBody()
+            .BuildFooter();
     }
 }
