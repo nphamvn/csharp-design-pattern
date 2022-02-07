@@ -1,6 +1,7 @@
 public interface IProductStockReportBuilder
 {
-    void BuildHeader();
-    void BuildBody();
-    void BuildFooter();
+    IProductStockReportBuilder BuildHeader();
+    IProductStockReportBuilder BuildBody();
+    IProductStockReportBuilder BuildFooter();
+    ProductStockReport GetReport();
 }
