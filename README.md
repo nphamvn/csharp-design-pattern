@@ -8,7 +8,7 @@ All patterns include:
 ## 1. Builder Design Pattern and Fluent Builder
 ## 2. Fluent Builder Interface With Recursive Generics
 ## 3. Faceted Builder
-## 4. Factory Method
+## 4. **Factory Method**
 ## 5. Singleton
 ## 6. Adapter
 ## 7. Composite
@@ -16,3 +16,10 @@ All patterns include:
 ## 9. Command
 ## 10. Strategy
 ## 11. Facade
+
+## Explanation
+- Is a creational pattern that provides an interface for creating objects without specifying their concrete classes.
+- Define a method to create an object instead of using constructor. The subclasses can override the method to create objects of different types.
+
+## Example
+A simple Airconditioner application.
