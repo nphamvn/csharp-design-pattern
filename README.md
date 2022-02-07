@@ -1,5 +1,9 @@
 # C# Design Patterns
 A collection of most used design patterns in C# with explanation and example.
+All patterns include:
+- What is the pattern
+- When should use the pattern
+- How to implement the pattern
 
 ## 1. Builder Design Pattern and Fluent Builder
 ## 2. Fluent Builder Interface With Recursive Generics
