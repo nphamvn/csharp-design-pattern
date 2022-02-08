@@ -1,0 +1,8 @@
+public class EmployeeSalaryBuilder<T> : EmployeePositionBuilder<EmployeeSalaryBuilder<T>> where T : EmployeeSalaryBuilder<T>
+{
+    public T WithSalary(int salary)
+    {
+        employee.Salary = salary;
+        return (T)this;
+    }
+}

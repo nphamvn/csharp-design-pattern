@@ -6,7 +6,7 @@ All patterns include:
 - How to implement the pattern
 
 ## 1. Builder Design Pattern and Fluent Builder
-## 2. Fluent Builder Interface With Recursive Generics
+## 2. **Fluent Builder Interface With Recursive Generics**
 ## 3. Faceted Builder
 ## 4. Factory Method
 ## 5. Singleton
