@@ -9,7 +9,7 @@ All patterns include:
 ## 2. Fluent Builder Interface With Recursive Generics
 ## 3. Faceted Builder
 ## 4. Factory Method
-## 5. Singleton
+## 5. **Singleton**
 ## 6. Adapter
 ## 7. Composite
 ## 8. Decorator
