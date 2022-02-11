@@ -23,4 +23,17 @@ public class ProductCommand : ICommand
                 break;
         }
     }
+
+    public void UndoAction()
+    {
+        switch (_priceAction)
+        {
+            case PriceAction.Increase:
+                _product.DecreasePrice(_amount);
+                break;
+            case PriceAction.Decrease:
+                _product.IncreasePrice(_amount);
+                break;
+        }
+    }
 }

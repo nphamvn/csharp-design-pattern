@@ -16,4 +16,12 @@ public class ModifyPrice
         _commands.Add(_command);
         _command.ExecuteAction();
     }
+
+    public void UndoActions()
+    {
+        foreach (var command in Enumerable.Reverse(_commands))
+        {
+            command.UndoAction();
+        }
+    }
 }
