@@ -13,6 +13,11 @@ All patterns include:
 ## 6. Adapter
 ## 7. Composite
 ## 8. Decorator
-## 9. Command
+## 9. **Command**
 ## 10. Strategy
 ## 11. Facade
+
+## Explanation
+- Is a behavioral design pattern that to turn a request into an object which contains all the information about the request.
+- Especially using when want to delay or queue a request’s execution or when want to keep track of operations. 
+- Possibility to keep track of operations and gives the opportunity to undo them as well.
