@@ -7,12 +7,17 @@ public sealed class Singleton
     {
         get
         {
-            lock (Instancelock)
+            if (instance == null)
             {
-                if (instance == null)
-                    instance = new Singleton();
-                return instance;
+                lock (Instancelock)
+                {
+                    if (instance == null)
+                    {
+                        instance = new Singleton();
+                    }
+                }
             }
+            return instance;
         }
     }
     private Singleton()
