@@ -14,5 +14,9 @@ All patterns include:
 ## 7. Composite
 ## 8. Decorator
 ## 9. Command
-## 10. Strategy
+## 10. **Strategy**
 ## 11. Facade
+
+## Explanation
+- Allows to define different functionalities, put each functionality in a separate class and make their objects interchangeable.
+- Use this pattern when have different variations for some functionality in an object and want to switch from one variation to another in a runtime. 
